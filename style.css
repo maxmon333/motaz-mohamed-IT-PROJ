@@ -1,0 +1,94 @@
+/* General */
+body {
+  font-family: Arial;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+/* Navbar */
+header {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+/* Main */
+main {
+  padding: 20px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+table, th, td {
+  border: 1px solid gray;
+}
+
+th {
+  background-color: #333;
+  color: white;
+}
+
+td, th {
+  padding: 10px;
+  text-align: center;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Form */
+form {
+  background: white;
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+button:hover {
+  background-color: black;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  form {
+    width: 90%;
+  }
+}
